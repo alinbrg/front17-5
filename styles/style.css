@@ -1,0 +1,48 @@
+/*reset styles*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul, ol{
+	list-style-type: none;
+}
+
+/*custom style*/
+header, section {
+	padding: 50px;
+}
+header{
+	background-color: blue;
+}
+.nav, .nav ul, .navbar-ul li{
+	display: inline;
+}
+.nav ul a{
+	color: white;
+}
+.logo{
+	vertical-align: middle;
+}
+.nav{
+	margin-left: 100px;
+	vertical-align: middle;
+}
+.navbar-ul li{
+	margin-right: 20px;	
+}
+
+.about{
+	background-color: lightcoral;
+}
+.about-block p, .about-block img {
+	display: inline-block;
+}
+.about-block p{
+	width: 400px;
+}
