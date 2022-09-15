@@ -44,12 +44,17 @@ header{
 .about{
 	background-color: lightcoral;
 }
+.about-block{
+	width: 800px;
+	margin: auto;
+}
 h1{
 	font-size: 30px;
 	font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 .about-block p, .about-block img {
 	display: inline-block;
+	vertical-align: middle;
 }
 .about-block p{
 	width: 400px;
